@@ -13,7 +13,7 @@ function App() {
   const [city, setCity] = useState("");
   const getWeather = (e) => {
       e.preventDefault();
-      axios.get("https://api.weatherapi.com/v1/current.json?key=xxx&q=London&aqi=no").then(res => console.log(res))
+      axios.get("https://api.weatherapi.com/v1/current.json?key="+process.env.REACT_APP_WEATHER_API_KEY+"&q=London&aqi=no").then(res => console.log(res))
   }
   return (
     <div className="test">
