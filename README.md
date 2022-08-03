@@ -4,7 +4,7 @@
 
 ## 学習素材
 
-- https://github.com/mod728/reactbook-weather-app
+- https://www.amazon.co.jp/dp/B08XWMVX76
 
 
 Reactで作る簡単な天気アプリです。
